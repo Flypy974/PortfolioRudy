@@ -1,0 +1,341 @@
+@media screen and (min-width: 425px) and (max-width: 1920px) {
+
+    @media screen and (max-width: 1680px) {
+        
+
+        body {
+            border: 4px solid rgb(226, 19, 19);
+            background-size: 270% 31%;
+        }
+
+        /************************** ACCUEIL *********************/
+
+        .titre-milieu {
+            font-size: 3.2em;
+        }
+
+        /******************************* CITATION *************************************/
+
+        blockquote {
+            font-size: 40px;
+        }
+
+        figcaption {
+            font-size: 18px;
+        }
+
+        /*********************** SECTION DIV SUITE APROPOS ******************************/
+
+        .bordure-gauche {
+            width: 68%;
+
+        }
+
+        .bordure-droite {
+            width: 68%;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            /* border: 2px solid purple; */
+            width: 280px;
+        }
+
+        .circular-bg {
+            width: 230px;
+            height: 230px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 170px;
+            width: 170px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 110px;
+            height: 110px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 130px;
+            height: 130px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 135px;
+            height: 135px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 1440px) {
+
+        body {
+            border: 4px solid blue;
+            background-size: 270% 34%;
+        }
+
+        /************************** ACCUEIL *********************/
+
+        .titre-milieu {
+            font-size: 2.8em;
+        }
+
+        /******************************* CITATION *************************************/
+        
+        .blockquote-box {
+            margin: 8%
+        }
+
+        figure {
+            margin: 2em;
+            padding: 2em;
+        }
+
+        blockquote {
+            font-size: 35px;
+        }
+
+        figcaption {
+            font-size: 15px;
+        }
+
+        /*********************************** A PROPOS ****************************************/
+
+        .p-apropos p {
+            font-size : 20px
+        }
+
+        /*********************** SECTION DIV SUITE APROPOS ******************************/
+
+        .img-manette {
+            width: 200px;
+            height: 200px;
+        }
+
+        .img-manette img {
+            width: 200px;
+            height: 160px;
+        }
+
+        .bordure-gauche {
+            width: 65%;
+
+        }
+        
+        .p-bande-apropos {
+            padding-left: 6em;
+            padding-right: 6em;
+            font-size: 20px;
+        }
+
+        .bordure-droite {
+            width: 65%;
+        }
+
+        .lien-CV {
+            width: 210px;
+            height:50px;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .cercle-grid-1, .cercle-grid-2, .cercle-grid-3,
+        .cercle-grid-4, .cercle-grid-5 {
+            width: 250px;
+            height: 250px;
+        }
+
+        .inside-circle {
+            width: 180px;
+            height: 180px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 180px;
+            height: 180px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 160px;
+            height: 70px;
+        }
+        
+        .cercle-grid-3 .img-afpar {
+            width: 170px;
+            height: 170px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 110px;
+            height: 120px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 160px;
+            height: 45px;
+        }
+
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 18px;
+        }
+
+        .cursus-1, .cursus-2, .cursus-3,
+        .cursus-4, .cursus-5 {
+            font-size: 18px;
+        }
+        
+        .cursus-2 {
+            width: 400px;
+            left: 0;
+        }
+
+        .cursus-3 {
+            width: 400px;
+            left: 60px;
+        }
+
+        .cursus-4 {
+            width: 400px;
+            left: 0
+        }
+
+        .cursus-5 {
+            width: 400px;
+            left: 60px;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            /* border: 2px solid purple; */
+            width: 250px;
+        }
+
+        .circular-bg {
+            width: 200px;
+            height: 200px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 140px;
+            width: 140px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 125px;
+            height: 125px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .container-portfolio {
+            width: 90%;
+        }
+
+        .box-portfolio {
+            gap: 90px;
+        }
+
+        .card-portfolio {
+            padding: 30px 30px;
+        }
+
+        .img-project-1, .img-project-3 {
+            height: 280px;
+            width: 220px;
+        }
+
+        .img-project-2 {
+            height: 280px;
+            width: 220px;
+        }
+
+        .box-h2 {
+            width: 220px;
+        }
+
+    }
+
+    @media  screen and (max-width: 1024px) {
+        
+        body {
+            border: 4px solid rgb(200, 255, 0);
+        }
+
+        /******************* HEADER ***********************/
+        .logo-RL {
+            top: 20px;
+            left: 50px
+        }
+
+        .logo-RL > img {
+            max-width: 140px;
+        }
+
+        .box-header {
+            width: 600px;
+        }
+
+        .box-header a {
+            font-size: 18px;
+        }
+        
+        /************************** ACCUEIL *********************/
+
+        .titre-milieu {
+            font-size: 2em;
+        }
+
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            margin: 2em;
+            padding: 2em;
+        }
+
+        blockquote {
+            font-size: 25px;
+        }
+
+        figcaption {
+            font-size: 13px;
+            width: 450px;
+            margin-top: 50px;
+            padding-right: 50px;
+        }
+
+        /******************************* SECTION DIV SUITE APROPOS *************************************/
+
+        .bordure-gauche {
+            width: 60%;
+
+        }
+
+        .bordure-droite {
+            width: 60%;
+        }
+
+    }
+
+}
