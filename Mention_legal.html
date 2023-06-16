@@ -3,29 +3,73 @@
     <head>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<link rel="stylesheet" href="style2.css">
-		<link rel="stylesheet" media="screen and (min-width: 425px) and (max-width: 1920px)" href="style_responsive.css">
+    	<link rel="stylesheet" href="style-mention.css">
+		<link rel="stylesheet" media="screen and (min-width: 200px) and (max-width: 1920px)" href="style_responsive.css">
+		<link rel="stylesheet" media="screen and (min-height: 0px) and (max-height: 800px)" href="style_responsive.css">
     	<meta charset="utf-8" />
     	<title>Mention légales</title>
     </head>
 
     <body>
 
-		<header class="header" id="header1">
+	<!-- NAV HEADER 1024px & 1920px-->
 
-			<div class="container-header">
-				<div class="logo-RL"><img src="images/LogoRudy4.png" alt="Logo de Rudy"></div>
-				<nav class="box-header">
-					<a href="index.html">À propos</a>
-					<a href="index.html">Parcours</a>
-					<a href="index.html">Compétence</a>
-					<a href="index.html">Portfolio</a>
-					<a href="index.html">Contact</a>
-					<!-- <a href="#">Blog</a> -->
-				</nav>
+	<header class="header" id="id-header">
+
+		<div class="container-header">
+			<div class="logo-RL"><img src="images/LogoRudy4.png" alt="Logo de Rudy"></div>
+			<nav class="nav-header">
+				<a href="index.html#a-propos">À propos</a>
+				<a href="index.html#parcours">Parcours</a>
+				<a href="index.html#competence">Compétence</a>
+				<a href="index.html#portfolio">Portfolio</a>
+				<a href="index.html#contact">Contact</a>
+				<!-- <a href="#">Blog</a> -->
+			</nav>
+		</div>
+
+		<!-- MENU BURGER -->
+
+		<nav>
+			<div class="navbar">
+			  <div class="container nav-container">
+				  <input class="checkbox" type="checkbox" name="" id="" />
+				  <div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				  </div>  
+				<div class="logo-RL-burger">
+				  <img src="images/LogoRudy4.png" alt="Logo de Rudy">
+				</div>
+				<div class="menu-items">
+				  <li><a href="#a-propos">À propos</a></li>
+				  <li><a href="#parcours">Parcours</a></li>
+				  <li><a href="#competence">Compétence</a></li>
+				  <li><a href="#portfolio">Portfolio</a></li>
+				  <li><a href="#contact">Contact</a></li>
+
+				  <div class="logo-RL-nav">
+					<img src="images/LogoRudy4.png" alt="Logo de Rudy">
+				  </div>
+				  <div class="box-social-link-nav">
+					<div class="social-link-nav">
+						<a href="https://www.linkedin.com/in/rudy-li%C3%A8me-8b2917242/"><img src="images/linkedin.png" alt="Liens Linkedin"></a>
+					</div>
+					<div class="social-link-nav">
+						<a href="https://www.facebook.com/Flypy974"><img src="images/logo-circulaire-facebook.png" alt="Liens Facebook"></a>
+					</div>
+					<div class="social-link-nav">
+						<a href="https://www.instagram.com/flypy_974/?hl=fr"><img src="images/instagram.png" alt="Liens Insta"></a>
+					</div>
+				  </div>
+
+				</div>
+			  </div>
 			</div>
-	
-		</header>
+		</nav>
+
+	</header>
 
 		<main>
 
@@ -43,8 +87,8 @@
 
 					<h2 class="h2-container">IDENTITÉ</h2>
 					<p class="p-container">
-						Nom du site web : www.RudyLième.re<br>
-						Adresse : https://www.RudyLième.re<br>
+						Nom du site web : site-de-rudy.netlify.app<br>
+						Adresse : https://site-de-rudy.netlify.app/<br>
 						Propriétaire : Rudy Lième<br>
 						Responsable de publication : Rudy Lième - r.lieme974@outlook.fr<br>
 						Le responsable publication est une personne physique ou une personne morale.<br>
@@ -53,8 +97,10 @@
 
 					<h2 class="h2-container">HÉBERGEMENT</h2>
 					<p class="p-container">
-						Le site sera bientôt hébergé par la société Hostinger International LTD, situé , (contact
-						téléphonique ou email : https://www.hostinger.fr/contact).
+						Le site est hébergé gratuitement sur <a href="https://www.netlify.com/">https://www.netlify.com/</a><br>
+						Un autre hébergement sera prévu pour bientôt.
+						<!-- site sera bientôt hébergé par la société Hostinger International LTD, situé , (contact
+						téléphonique ou email : https://www.hostinger.fr/contact). -->
 					</p>
 
 					<h2 class="h2-container">CONDITIONS D’UTILISATION</h2>
@@ -102,12 +148,12 @@
 
 					<h2 class="h2-container">LIENS</h2>
 					<p class="p-container">
-						Liens sortants
+						- Liens sortants <br></br>
 						Le propriétaire du site décline toute responsabilité et n’est pas engagé par le
 						référencement via des liens hypertextes, de ressources tierces présentes sur le
 						réseau Internet, tant en ce qui concerne leur contenu que leur pertinence.<br></br>
 						
-						Liens entrants
+						- Liens entrants<br></br>
 						Le propriétaire du site autorise les liens hypertextes vers l’une des pages de ce 
 						site, à condition que ceux-ci ouvrent une nouvelle fenêtre et soient présentés de 
 						manière non équivoque afin d’éviter :<br></br>
@@ -146,9 +192,10 @@
 
 					<div class="credit-mention">
 						<p class="p-credit">
-							Crédits : Mention légales éditer par Rudy Lième grâce à l’aide de 
+							Crédits : Mention légales éditer grâce à l’aide de 
 							<a href="https://www.webexpress.fr/actualite/focus/modele-de-mentions-legales-complet-et-gratuit/#fn-7013-4">webexpress.fr</a> 
-							rubrique “mention légale”
+							rubrique “mention légale” <br>
+							Photo et logo : Utilisé sur les sites Unplash, Canva et Figma
 						</p>
 					</div>
 
@@ -157,7 +204,7 @@
 
 		</main>
 
-		<footer class="footer" id="footer1">
+		<footer class="footer" id="id-footer">
 		
 			<div class="container-social-link">
 				<div class="box-social-link">
@@ -165,7 +212,7 @@
 						<a href="https://www.linkedin.com/in/rudy-li%C3%A8me-8b2917242/"><img src="images/linkedin.png" alt="Liens Linkedin"></a>
 					</div>
 					<div class="social-link">
-						<a href="https://www.facebook.com/Flypy974"><img src="images/logo-circulaire-facebook.png" alt="Liens Facebook"></a>
+						<a href="https://github.com/Flypy974"><img src="images/github.png" alt="Liens Github"></a>
 					</div>
 					<div class="social-link">
 						<a href="https://www.instagram.com/flypy_974/?hl=fr"><img src="images/instagram.png" alt="Liens Insta"></a>
@@ -176,9 +223,9 @@
 	
 			<div class="container-footer">
 				<nav class="box-footer">
-					<div>©2022 |</div>
+					<div>©2022-2023 |</div>
 					<div>Rudy Lième |</div>
-					<a href="Mention_legal.html">Mention légales</a>
+					<a href="mention_legal.html">Mention légales</a>
 				</nav>
 			</div>
 	

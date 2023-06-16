@@ -5,18 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" media="screen and (min-width: 425px) and (max-width: 1920px)" href="style_responsive.css">
+	<link rel="stylesheet" media="screen and (min-width: 200px) and (max-width: 1920px)" href="style_responsive.css">
+	<link rel="stylesheet" media="screen and (min-height: 0px) and (max-height: 800px)" href="style_responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="swiper-carrousel/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="chocolat-lighbox/dist/css/chocolat.css">
 	<meta charset="utf-8" />
 	<title>Portfolio de Rudy</title>
 </head>
 
 <body>
 
-	<header class="header" id="header1">
+	<!-- NAV HEADER 1024px & 1920px-->
+
+	<header class="header" id="id-header">
 
 		<div class="container-header">
 			<div class="logo-RL"><img src="images/LogoRudy4.png" alt="Logo de Rudy"></div>
-			<nav class="box-header">
+			<nav class="nav-header">
 				<a href="#a-propos">À propos</a>
 				<a href="#parcours">Parcours</a>
 				<a href="#competence">Compétence</a>
@@ -26,13 +32,56 @@
 			</nav>
 		</div>
 
+		<!-- MENU BURGER -->
+
+		<nav>
+			<div class="navbar">
+			  <div class="container nav-container">
+				  <input class="checkbox" type="checkbox" name="" id="" />
+				  <div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				  </div>  
+				<div class="logo-RL-burger">
+				  <img src="images/LogoRudy4.png" alt="Logo de Rudy">
+				</div>
+				<div class="menu-items">
+				  <li><a href="#a-propos">À propos</a></li>
+				  <li><a href="#parcours">Parcours</a></li>
+				  <li><a href="#competence">Compétence</a></li>
+				  <li><a href="#portfolio">Portfolio</a></li>
+				  <li><a href="#contact">Contact</a></li>
+
+				  <div class="logo-RL-nav">
+					<img src="images/LogoRudy4.png" alt="Logo de Rudy">
+				  </div>
+				  <div class="box-social-link-nav">
+					<div class="social-link-nav">
+						<a href="https://www.linkedin.com/in/rudy-li%C3%A8me-8b2917242/"><img src="images/linkedin.png" alt="Liens Linkedin"></a>
+					</div>
+					<div class="social-link-nav">
+						<a href="https://www.facebook.com/Flypy974"><img src="images/logo-circulaire-facebook.png" alt="Liens Facebook"></a>
+					</div>
+					<div class="social-link-nav">
+						<a href="https://www.instagram.com/flypy_974/?hl=fr"><img src="images/instagram.png" alt="Liens Insta"></a>
+					</div>
+				  </div>
+
+				</div>
+			  </div>
+			</div>
+		</nav>
+
 	</header>
 
 	<main>
 		<div class="container-accueil">
 
 			<div class="background-accueil">
-				<img src="images/rm218-bb-05.jpg" alt="Néon background">
+				<div class="img-box-bg">
+					<img src="images/rm218-bb-05.jpg" alt="Néon background">
+				</div>
 			</div>
 			<div class="titre-milieu">
 				<h1>Bienvenue sur le site de Rudy Lième développeur Jr. Web et App mobile</h1>
@@ -56,10 +105,13 @@
 						<blockquote>
 							<p>“Les Logiciels et les cathédrales, c’est un peu la même chose - d’abord on les construit, ensuite
 								on prie”</p>
-							<figcaption>— Sam Redwine @ <cite><a href="https://en.wikiquote.org/wiki/Programming">4th
-										International Software Process Workshop,
-										Moretonhampstead, Devon, U.K.</a></cite></figcaption>
 						</blockquote>
+						<figcaption>
+							<cite>— Sam Redwine @ <a href="https://en.wikiquote.org/wiki/Programming">4th
+							International Software Process Workshop,
+							Moretonhampstead, Devon, U.K.</a></cite>
+						</figcaption>
+
 					</figure>
 					<div class="marge-bar2">
 						<div class="barre-horizontale2"></div>
@@ -80,21 +132,18 @@
 
 			<div id="a-propos" class="container-apropos">
 
+				<div class="box-apropos">
+					<h2>À propos de moi</h2>
+				</div>
+
 				<div class="col-apropos">
-					<div class="box-apropos">
-						<h2>À propos de moi</h2>
-					</div>
 					<div class="p-apropos">
 						<p>Hello world ! Je suis Rudy Lième et je me lance à travers la programmation pour être
-							développeur
-							web.<br></br>
+							développeur.<br></br>
 							Pourquoi développeur ?<br></br>
 							Eh bien, la programmation est un atout dans la vie de tous les jours, en effet il permet de
-							mieux
-							comprendre les bases et les mécaniques du code qui se cache derrière nos écrans et c’est
-							bien
-							pour
-							cette raison que développeur web est un chemin intéressant pour moi.
+							mieux comprendre les bases et les mécaniques du code qui se cache derrière nos écrans, en plus de savoir
+							résoudre des problèmes complexes qui est pour moi ce qui se fait le mieux pour un développeur.
 						</p>
 					</div>
 				</div>
@@ -124,17 +173,16 @@
 					</div>
 					<div class="p-bande-apropos">
 						<p>
-							Une autre raison qui me pousse aussi à faire du Dev c’est aussi pour la conception de
-							jeux vidéos car suis passionné par tout ce qui est jeux vidéo. Je réverai de faire mon
-							propre
-							jeu un jour tout en continuant à développer des sites web.
+							Une autre raison qui me pousse aussi à faire du Dev, c’est aussi pour la conception de
+							jeux vidéos car étant passionné par la culture qui tourne autour des jeux. Je réve de faire mon
+							propre projet de jeu tout en continuant à développer des sites web.
 						</p>
 					</div>
 					<div class="box-CV">
 						<h3>Voir mon CV</h3>
-						<div class="lien-CV">
-							<a href="CV_DWWM_Stage2.pdf">Cliquez ici</a>
-						</div>
+						<button class="btn-lien-CV">
+							<a href="CV_Développeur_WEB_Indeed.pdf">Cliquez ici</a>
+						</button>
 					</div>
 				</div>
 
@@ -161,7 +209,6 @@
 			</div>
 
 			<div class="container-grid">
-				<div class="triangle-grid"></div>
 
 				<div class="wrapper">
 
@@ -175,6 +222,7 @@
 					</div>
 
 					<div class="col-2-1">
+						<div class="triangle-grid"></div>
 						<div class="ligne-vertical-1"></div>
 						<div class="cercle-grid-1">
 							<img class="img-ifr" cla src="images/IFR-img.jpg" alt="image IFR">
@@ -183,7 +231,7 @@
 
 					<div class="col-3-1">
 						<div class="txt-1">
-							<p>Je suis en formation de DWWM avec l'IFR et prépare actuellement mon diplôme.</p>
+							<p>J'ai été en formation de DWWM avec l'IFR pendant 10 mois en ayant obtenu une attestation par la suite.</p>
 						</div>
 					</div>
 
@@ -304,6 +352,7 @@
 
 			<div id="competence" class="container-competence">
 				<h1>Mes compétences</h1>
+				
 
 				<div class="container-box">
 					<div class="box-circular">
@@ -354,8 +403,10 @@
 				</div>
 			</div>
 
+			<!----------------------------- PORTFOLIO ----------------------------------->
 			<div class="big-container-portfolio">
 				<div id="portfolio" class="container-portfolio">
+
 					<div class="box-titre-portfolio">
 						<div class="titre-portfolio">
 							<h1>Mon Portfolio</h1>
@@ -363,34 +414,147 @@
 						</div>
 						<div class="bloc-vide"></div>
 					</div>
-
-					<div class="box-portfolio">
-						<span class="card-portfolio">
-							<div class="box-h2">
-								<h2>Projet Portfolio personnel</h2>
-								<div class="ligne-h2"></div>
+		
+					<div class="container-swiper">
+		
+						<div class="slide-content">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+		
+									<div class="swiper-slide card">
+		
+										<div class="image-content">
+											<span class="overlay"></span>
+											<span class="line-overlay"></span>
+											<div class="thumbnail">
+												<img src="images/RST974Logo.png" alt="image RST">
+											</div>
+										</div>
+		
+										<div class="card-content">
+											<h3 class="title-container">Stage RST</h3>
+		
+											<div class="description">
+												Un projet de gestion de stocks réaliser en binôme à l'Afpar de Saint-André.
+											</div>
+											<button class="button">
+												<a class="chocolat-image" href="images/Projet-RST.png" title="Projet de stage RST">
+													Voir plus <!-- you can display a thumbnail here : <img src="thumb/a.jpg" /> -->
+												</a>
+											</button>
+										</div>
+		
+									</div>
+		
+									<div class="swiper-slide card">
+										<div class="image-content">
+											<span class="overlay"></span>
+											<span class="line-overlay"></span>
+											<div class="thumbnail">
+												<img src="images/portfolio-inspiration.jpg" alt="">
+											</div>
+										</div>
+										<div class="card-content">
+											<h3 class="title-container">Mon Portfolio</h3>
+		
+											<div class="description">
+												Un projet de formation Développeur web et web mobile (DWWM) dont le but était d'avoir
+												un portfolio personnel créatif.
+											</div>
+											<button class="button">
+												<a class="chocolat-image" href="images/Projet-mon-portfolio.png" title="Mon portfolio personnel">
+													Voir plus <!-- you can display a thumbnail here : <img src="thumb/a.jpg" /> -->
+												</a>
+											</button>
+										</div>
+									</div>
+		
+									<div class="swiper-slide card">
+										<div class="image-content">
+											<span class="overlay"></span>
+											<span class="line-overlay"></span>
+											<div class="thumbnail">
+												<img src="images/2021_salon_numérique.jpg" alt="image mini-jeux">
+											</div>
+										</div>
+										<div class="card-content">
+											<h3 class="title-container">Mini-jeux Space shooter</h3>
+		
+											<div class="description">
+												Réalisations d'un mini-jeu sur Flutter en utilisant le langage Dart.
+											</div>
+											<button class="button">
+												<a class="chocolat-image" href="images/Projet-mini-jeux.png" title="Mini-jeux Space shooter">
+													Voir plus <!-- you can display a thumbnail here : <img src="thumb/a.jpg" /> -->
+												</a>
+											</button>
+										</div>
+									</div>
+		
+									<div class="swiper-slide card">
+		
+										<div class="image-content">
+											<span class="overlay"></span>
+											<span class="line-overlay"></span>
+											<div class="thumbnail">
+												<img src="images/pexels-lukas-574073.jpg" alt="image digital">
+											</div>
+										</div>
+		
+										<div class="card-content">
+											<h3 class="title-container">Digital Networking</h3>
+		
+											<div class="description">
+												Un projet de stage dont le but était de créer une fiche gestion client sur Excel.
+											</div>
+											<button class="button">
+												<a class="chocolat-image" href="images/Projet-DigitalNetworking.png" title="Digital Networking">
+													Voir plus <!-- you can display a thumbnail here : <img src="thumb/a.jpg" /> -->
+												</a>
+											</button>
+										</div>
+		
+									</div>
+		
+									<div class="swiper-slide card">
+										<div class="image-content">
+											<span class="overlay"></span>
+											<span class="line-overlay"></span>
+											<div class="thumbnail">
+												<img src="images/Work-in-progress.png" alt="">
+											</div>
+										</div>
+										<div class="card-content">
+											<h3 class="title-container">Projet en cours...</h3>
+		
+											<div class="description">
+												D'autres projets seront réaliser bientôt !
+											</div>
+											<button class="button">
+												<a class="chocolat-image" href="images/Work-in-progress-2.png" title="Projet en cours...">
+													Voir plus <!-- you can display a thumbnail here : <img src="thumb/a.jpg" /> -->
+												</a>
+											</button>
+										</div>
+									</div>
+		
+								</div>
 							</div>
-							<a href="#"><img class="img-project-1" src="images/portfolio-inspiration.jpg" alt="Portfolio"></a>
-						</span>
-						<span class="card-portfolio">
-							<div class="box-h2">
-								<h2>Projet Fri'mouss <br/>pour Fanny</h2>
-								<div class="ligne-h2"></div>
-							</div>
-							<a href="#"><img class="img-project-2" src="images/clipart2655834.png" alt="Work in progress"></a>
-						</span>
-						<span class="card-portfolio">
-							<div class="box-h2">
-								<h2>Projet mini-jeu Javascript</h2>
-								<div class="ligne-h2"></div>
-							</div>
-							<a href="#"><img class="img-project-3" src="images/2021_salon_numérique.jpg" alt="Mini jeux"></a>
-						</span>
+		
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-next swiper-navBtn"></div>
+							<div class="swiper-button-prev swiper-navBtn"></div>
+		
+						</div>
+		
 					</div>
+					
 				</div>
 			</div>
-		</div>
 
+		</div>
+		
+		<!------------------------------------------------------------------------------------------------------------------------->
 		<div class="svg-mid">
 			<svg width="717" height="661" viewBox="0 0 717 661" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<g filter="url(#filter0_d_97_358)">
@@ -461,9 +625,14 @@
 		<section class="container-formulaire">
 			<div class="box-formulaire">
 				<h1>Contactez-moi</h1>
-				<p>Un problème, une question, envie de m'envoyer un p'tit message ? N’hésitez pas à utiliser ce
+				<p>Envie de m'envoyer un p'tit message ? N’hésitez pas à utiliser ce
 					formulaire pour prendre contact avec moi !</p>
-				<form name="contact" method="post" data-netlify="true">
+				<form name="contact" method="POST" data-netlify="true" onSubmit="submit" netlify-honeypot="bot-field">
+					<p class="hidden">
+						<label>
+							<input name="bot-field" />
+						</label>
+					</p>
 					<div class="box-nom-prenom">
 						<div>
 							<label for="nom">Votre nom</label>
@@ -478,7 +647,7 @@
 						<label for="email">Votre e-mail</label>
 						<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
 					</div>
-					<div>
+					<!-- <div>
 						<label for="sujet">Quel est le sujet de votre message ?</label>
 						<select name="sujet" id="sujet" required>
 							<option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
@@ -487,7 +656,7 @@
 							<option value="suivi-commande">Suivi de ma commande</option>
 							<option value="autre">Autre...</option>
 						</select>
-					</div>
+					</div> -->
 					<div>
 						<label for="message">Votre message</label>
 						<textarea id="message" name="message" placeholder="Bonjour, j'aimerai vous contactez car...."
@@ -501,7 +670,7 @@
 		</section>
 	</main>
 
-	<footer class="footer" id="footer1">
+	<footer class="footer" id="id-footer">
 		
 		<div class="container-social-link">
 			<div class="box-social-link">
@@ -509,7 +678,7 @@
 					<a href="https://www.linkedin.com/in/rudy-li%C3%A8me-8b2917242/"><img src="images/linkedin.png" alt="Liens Linkedin"></a>
 				</div>
 				<div class="social-link">
-					<a href="https://www.facebook.com/Flypy974"><img src="images/logo-circulaire-facebook.png" alt="Liens Facebook"></a>
+					<a href="https://github.com/Flypy974"><img src="images/github.png" alt="Liens Github"></a>
 				</div>
 				<div class="social-link">
 					<a href="https://www.instagram.com/flypy_974/?hl=fr"><img src="images/instagram.png" alt="Liens Insta"></a>
@@ -520,14 +689,19 @@
 
 		<div class="container-footer">
 			<nav class="box-footer">
-				<div>©2022 |</div>
+				<div>©2022-2023 |</div>
 				<div>Rudy Lième |</div>
-				<a href="Mention_legal.html">Mention légales</a>
+				<a href="mention_legal.html">Mention légales</a>
 			</nav>
 		</div>
 
 	</footer>
 
+	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="swiper-carrousel/swiper-bundle.min.js"></script>
+    <script src="swiper-carrousel/swiperScript.js"></script>
+	<script src="chocolat-lighbox/dist/js/chocolat.js"></script>
 	<script src="script.js"></script>
 
 </body>

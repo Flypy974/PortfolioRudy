@@ -1,4 +1,16 @@
-@media screen and (min-width: 425px) and (max-width: 1920px) {
+@media screen and (min-width: 200px) and (max-width: 1920px) {
+
+    /* .titre-milieu {
+        font-size: 3.5em;
+    } */
+
+    @media screen and (max-width: 1700px) {
+
+        .titre-milieu > h1 {
+            font-size: 5em;
+        }
+
+    }
 
     @media screen and (max-width: 1680px) {
         
@@ -10,8 +22,8 @@
 
         /************************** ACCUEIL *********************/
 
-        .titre-milieu {
-            font-size: 3.2em;
+        .titre-milieu > h1 {
+            font-size: 5em;
         }
 
         /******************************* CITATION *************************************/
@@ -22,17 +34,6 @@
 
         figcaption {
             font-size: 18px;
-        }
-
-        /*********************** SECTION DIV SUITE APROPOS ******************************/
-
-        .bordure-gauche {
-            width: 68%;
-
-        }
-
-        .bordure-droite {
-            width: 68%;
         }
 
         /***************************************** COMPETENCE **************************************************/
@@ -72,6 +73,104 @@
 
     }
 
+    @media screen and (max-width: 1635px) {
+
+        .cursus-1 {
+            width: 77%;
+            left: 15%;
+        }
+
+        .cursus-4 {
+            width: 77%;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        /* .container-portfolio {
+            width: 100%;
+        } */
+
+    }
+
+    @media screen and (max-width: 1525px) {
+
+        /***************************************** MON PARCOURS *************************************/
+        .cursus-1 {
+            top: 38%;
+            width: 78%;
+            left: 15%;
+            font-size: 19px;
+        }
+
+        .cursus-2 {
+            width: 80%;
+            right: 5%;
+            font-size: 19px;
+        }
+
+        .cursus-3 {
+            width: 75%;
+            left: 15%;
+            font-size: 19px;
+        }
+
+        .cursus-4 {
+            width: 78%;
+            /* top: 12%; */
+            font-size: 19px;
+        }
+
+        .cursus-5 {
+            left: 15%;
+            font-size: 19px;
+        }
+
+    }
+
+    @media screen and (max-width: 1485px) {
+
+        .titre-milieu > h1 {
+            font-size: 5em;
+        }
+
+        /***************************************** MON PARCOURS **************************************************/
+
+        .cercle-grid-1, .cercle-grid-2, .cercle-grid-3,
+        .cercle-grid-4, .cercle-grid-5 {
+            width: 260px;
+            height: 260px;
+        }
+
+        .inside-circle {
+            width: 190px;
+            height: 190px;
+        }
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            width: 230px;
+        }
+
+        .cursus-1 {
+            width: 79%;
+        }
+
+        .cursus-2 {
+            width: 81%;
+        }
+
+        .cursus-3 {
+            width: 76%;
+        }
+
+        .cursus-4 {
+            width: 79%;
+            /* top: 12%; */
+            font-size: 19px;
+        }
+
+    }
 
     @media screen and (max-width: 1440px) {
 
@@ -82,8 +181,12 @@
 
         /************************** ACCUEIL *********************/
 
-        .titre-milieu {
-            font-size: 2.8em;
+        .titre-milieu > h1 {
+            font-size: 5em;
+        }
+
+        .logo-RL img {
+            max-width: 130px;
         }
 
         /******************************* CITATION *************************************/
@@ -92,10 +195,10 @@
             margin: 8%
         }
 
-        figure {
-            margin: 2em;
-            padding: 2em;
-        }
+        /* figure {
+            margin: 4em;
+            padding: 4em;
+        } */
 
         blockquote {
             font-size: 35px;
@@ -108,10 +211,14 @@
         /*********************************** A PROPOS ****************************************/
 
         .p-apropos p {
-            font-size : 20px
+            font-size : 18px
         }
 
         /*********************** SECTION DIV SUITE APROPOS ******************************/
+
+        .box-bande-apropos {
+            padding: 2em 14em 2em;
+        }
 
         .img-manette {
             width: 200px;
@@ -119,28 +226,17 @@
         }
 
         .img-manette img {
-            width: 200px;
-            height: 160px;
+            width: 180px;
+            height: 140px;
         }
 
-        .bordure-gauche {
-            width: 65%;
-
+        .img-manette img:hover {
+            width: 180px;
+            height: 140px;
         }
         
         .p-bande-apropos {
-            padding-left: 6em;
-            padding-right: 6em;
-            font-size: 20px;
-        }
-
-        .bordure-droite {
-            width: 65%;
-        }
-
-        .lien-CV {
-            width: 210px;
-            height:50px;
+            font-size: 18px;
         }
 
         /***************************************** MON PARCOURS *************************************/
@@ -190,26 +286,6 @@
         .cursus-4, .cursus-5 {
             font-size: 18px;
         }
-        
-        .cursus-2 {
-            width: 400px;
-            left: 0;
-        }
-
-        .cursus-3 {
-            width: 400px;
-            left: 60px;
-        }
-
-        .cursus-4 {
-            width: 400px;
-            left: 0
-        }
-
-        .cursus-5 {
-            width: 400px;
-            left: 60px;
-        }
 
         /***************************************** COMPETENCE **************************************************/
 
@@ -249,7 +325,7 @@
         /******************************************** PORTFOLIO ***************************************/
 
         .container-portfolio {
-            width: 90%;
+            width: 100%;
         }
 
         .box-portfolio {
@@ -276,20 +352,760 @@
 
     }
 
+    @media screen and (max-width: 1360px) {
+
+        .titre-milieu > h1 {
+            font-size: 4.5em;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 17px;
+        }
+
+        .cursus-1 {
+            width: 80%;
+            font-size: 17px;
+        }
+
+        .cursus-2 {
+            width: 82%;
+            font-size: 17px;
+        }
+
+        .cursus-3 {
+            width: 77%;
+            font-size: 17px;
+        }
+
+        .cursus-4 {
+            width: 80%;
+            font-size: 17px;
+        }
+
+        .cursus-5 {
+            font-size: 17px;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 20px;
+        }
+
+        .container-mention > .p-container {
+            padding-right: 15em;
+        }
+
+    }
+
+    @media screen and (max-width: 1300px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+        }
+
+        /***************************************** A PROPOS *************************************/
+
+        .box-profil-pic > img {
+            width: 285px;
+            height: 286px;
+        }
+
+        .container-apropos {
+            height: 100vh;
+        }
+
+        .container-pro-pic {
+            padding-left: 5em;
+            padding-right: 5em;
+        }
+
+        .p-apropos {
+            padding-left: 5em;
+            padding-right: 0;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            width: 210px;
+        }
+
+        .cercle-grid-1, .cercle-grid-2, .cercle-grid-3,
+        .cercle-grid-4, .cercle-grid-5 {
+            width: 230px;
+            height: 230px;
+        }
+
+        .inside-circle {
+            width: 160px;
+            height: 160px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 160px;
+            height: 160px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 140px;
+            height: 50px;
+        }
+        
+        .cercle-grid-3 .img-afpar {
+            width: 150px;
+            height: 150px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 90px;
+            height: 100px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 140px;
+            height: 35px;
+        }
+
+    }
+
+    @media screen and (max-width: 1272px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+            width: auto;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 16px;
+        }
+
+        .cursus-1 {
+            width: 82%;
+            font-size: 16px;
+        }
+
+        .cursus-2 {
+            width: 84%;
+            font-size: 16px;
+        }
+
+        .cursus-3 {
+            width: 79%;
+            font-size: 16px;
+        }
+
+        .cursus-4 {
+            width: 82%;
+            font-size: 16px;
+        }
+
+        .cursus-5 {
+            font-size: 16px;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            width: 245px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .box-portfolio {
+            gap: 70px;
+        }
+
+        /* .card-portfolio {
+            padding: 31px 31px;
+        } */
+
+        .img-project-1, .img-project-3 {
+            height: 260px;
+            width: 200px;
+        }
+
+        .img-project-2 {
+            height: 260px;
+            width: 200px;
+        }
+
+        .box-h2 {
+            width: 200px;
+        }
+
+    }
+
+    @media screen and (max-width: 1239px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+            width: auto;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            /* border: 2px solid purple; */
+            width: 240px;
+        }
+
+        .circular-bg {
+            width: 190px;
+            height: 190px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 130px;
+            width: 130px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 90px;
+            height: 90px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 120px;
+            height: 120px;
+        }
+
+        /*************************************** FOOTER ********************************************/
+        .box-social-link {
+            width: 50%;
+        }
+
+    }
+
+    @media screen and (max-width: 1209px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .circular-bg {
+            width: 180px;
+            height: 180px;
+        }
+
+        .box-circular {
+            width: 235px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 120px;
+            width: 120px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 90px;
+            height: 90px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 115px;
+            height: 115px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .container-portfolio {
+            width: 100%;
+        }
+
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+        }
+
+        .logo-RL {
+            left: 110px;
+        }
+
+        /******************************* CITATION *************************************/
+    
+        .blockquote-box {
+            margin: 5%
+        }
+
+        /* figure {
+            margin: 3em;
+            padding: 3em;
+        } */
+
+        blockquote {
+            font-size: 30px;
+        }
+
+        figcaption {
+            font-size: 12px;
+        }
+
+        /*********************** SECTION DIV SUITE APROPOS ******************************/
+
+        .box-ligne-gauche {
+            width: 60vw;
+        }
+
+        .box-ligne-droite {
+            width: 60vw;
+        }
+
+        .box-bande-apropos {
+            padding: 2em 11em 2em;
+        }
+
+        .img-manette {
+            width: 180px;
+            height: 180px;
+        }
+
+        .img-manette img {
+            width: 170px;
+            height: 130px;
+        }
+
+        .img-manette img:hover {
+            width: 170px;
+            height: 130px;
+        }
+        
+        .p-bande-apropos {
+            font-size: 16px;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            width: 200px;
+        }
+
+        .cercle-grid-1, .cercle-grid-2, .cercle-grid-3,
+        .cercle-grid-4, .cercle-grid-5 {
+            width: 220px;
+            height: 220px;
+        }
+
+        .inside-circle {
+            width: 150px;
+            height: 150px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 150px;
+            height: 150px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 130px;
+            height: 40px;
+        }
+        
+        .cercle-grid-3 .img-afpar {
+            width: 140px;
+            height: 140px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 80px;
+            height: 90px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 130px;
+            height: 30px;
+        }
+
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 15px;
+        }
+
+        .cursus-1 {
+            width: 83%;
+            font-size: 15px;
+        }
+
+        .cursus-2 {
+            width: 85%;
+            font-size: 15px;
+        }
+
+        .cursus-3 {
+            width: 80%;
+            font-size: 15px;
+        }
+
+        .cursus-4 {
+            width: 83%;
+            font-size: 15px;
+        }
+
+        .cursus-5 {
+            font-size: 15px;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            width: 215px;
+        }
+
+        .circular-bg {
+            width: 160px;
+            height: 160px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 110px;
+            width: 110px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .box-portfolio {
+            gap: 60px;
+        }
+
+        .container-swiper {
+            width: 100%;
+        }
+
+        .swiper-wrapper {
+            margin: 0;
+        }
+
+        /******************************************** SVG ***************************************/
+
+        svg {
+            width: 50%;
+            height: 50%;
+        }
+
+        /*************************************** FOOTER ********************************************/
+        .box-social-link {
+            width: 55%;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 16px;
+        }
+
+        .container-mention > .p-container {
+            padding-right: 10em;
+        }
+
+        .credit-mention {
+            font-size: 11px;
+        }
+
+    }
+
+    @media  screen and (max-width: 1146px) {
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+        }
+
+        /*********************** SECTION DIV SUITE APROPOS ******************************/
+
+        .box-bande-apropos {
+            padding: 2em 9em 2em;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            width: 200px;
+        }
+
+        .circular-bg {
+            width: 150px;
+            height: 150px;
+        }
+
+        .circular-progress-1, .circular-progress-2, .circular-progress-3,
+        .circular-progress-4, .circular-progress-5 {
+            height: 100px;
+            width: 100px;
+        }
+
+        .circular-progress-1 > img,
+        .circular-progress-2 > img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .circular-progress-3 > img {
+            width: 90px;
+            height: 90px;
+        }
+
+        .circular-progress-4 > img,
+        .circular-progress-5 > img {
+            width: 90px;
+            height: 90px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .img-project-1, .img-project-3 {
+            height: 240px;
+            width: 180px;
+        }
+
+        .img-project-2 {
+            height: 240px;
+            width: 180px;
+        }
+
+        .box-h2 {
+            width: 180px;
+        }
+
+        .ligne-h2 {
+            width: 80%;
+        }
+
+    }
+
+    @media  screen and (max-width: 1100px) {
+
+        .titre-milieu {
+            width: 65vw;
+        }
+
+        .titre-milieu > h1 {
+            font-size: 4em;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            width: 190px;
+        }
+
+        .cercle-grid-1, .cercle-grid-2, .cercle-grid-3,
+        .cercle-grid-4, .cercle-grid-5 {
+            width: 210px;
+            height: 210px;
+        }
+
+        .inside-circle {
+            width: 140px;
+            height: 140px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 140px;
+            height: 140px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 120px;
+            height: 30px;
+        }
+        
+        .cercle-grid-3 .img-afpar {
+            width: 130px;
+            height: 130px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 70px;
+            height: 80px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 120px;
+            height: 25px;
+        }
+
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 14px;
+        }
+
+        .cursus-1 {
+            width: 84%;
+            font-size: 14px;
+            left: 10%;
+            top: 41%;
+        }
+
+        .cursus-2 {
+            width: 86%;
+            font-size: 14px;
+            top: 5%;
+        }
+
+        .cursus-3 {
+            width: 81%;
+            font-size: 14px;
+            top: 5%;
+            left: 10%;
+        }
+
+        .cursus-4 {
+            width: 84%;
+            font-size: 14px;
+            top: 16%;
+        }
+
+        .cursus-5 {
+            top: 14%;
+            left: 10%;
+            font-size: 14px;
+        }
+
+        /***************************************** COMPETENCE **************************************************/
+
+        .box-circular {
+            width: 205px;
+        }
+
+    }
+
+    @media  screen and (max-width: 1060px) {
+
+        .titre-milieu > h1 {
+            font-size: 3.6em;
+        }
+
+        /***************************************** MON PARCOURS *************************************/
+        
+        .txt-1, .txt-2, .txt-3,
+        .txt-4, .txt-5 {
+            font-size: 13px;
+        }
+
+        .cursus-1 {
+            width: 85%;
+            font-size: 13px;
+        }
+
+        .cursus-2 {
+            width: 87%;
+            font-size: 13px;
+        }
+
+        .cursus-3 {
+            width: 82%;
+            font-size: 13px;
+        }
+
+        .cursus-4 {
+            width: 85%;
+            font-size: 13px;
+        }
+
+        .cursus-5 {
+            font-size: 13px;
+        }
+
+        /******************************************** PORTFOLIO ***************************************/
+
+        .img-project-1, .img-project-3 {
+            height: 220px;
+            width: 160px;
+        }
+
+        .img-project-2 {
+            height: 220px;
+            width: 160px;
+        }
+
+        .box-h2 {
+            width: 160px;
+            font-size: 0.4em;
+        }
+
+        .ligne-h2 {
+            width: 75%;
+        }
+
+    }
+
     @media  screen and (max-width: 1024px) {
         
         body {
             border: 4px solid rgb(200, 255, 0);
         }
 
-        /******************* HEADER ***********************/
-        .logo-RL {
-            top: 20px;
-            left: 50px
+        main {
+            padding-top: 76px;          /* Décalage de la nav burger pour que le main reste centré */
         }
 
-        .logo-RL > img {
-            max-width: 140px;
+        /******************* HEADER ***********************/
+
+        .container-header {
+            display: none;
+        }
+
+        .logo-RL-burger {
+            top: 20px;
+            right: 100px;
+            z-index: 1;
+        }
+
+        .logo-RL-burger > img {
+            max-width: 80px;
+            border-radius: 25%;
+            border-bottom: 3px solid #11f3e6;
+            box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
         }
 
         .box-header {
@@ -299,41 +1115,1745 @@
         .box-header a {
             font-size: 18px;
         }
+
+        /*********************** MENU BURGER ****************/
+
+        .navbar {
+            display: block;
+        }
         
         /************************** ACCUEIL *********************/
 
         .titre-milieu {
-            font-size: 2em;
+            width: 65vw;
+        }
+
+        .titre-milieu > h1 {
+            font-size: 3.5em;
         }
 
 
         /******************************* CITATION *************************************/
 
-        figure {
-            margin: 2em;
-            padding: 2em;
+        .section-quote {
+            height: 90vh;
         }
 
         blockquote {
             font-size: 25px;
         }
 
+        /* .blockquote-box {
+            margin: 8%;
+        } */
+
+        .barre-horizontale1,
+        .barre-horizontale2 {
+            width: 200px
+        }
+
+        /***************************************** A PROPOS *************************************/
+
+        .box-profil-pic > img {
+            width: 230px;
+            height: 230px;
+        }
+
+        .container-apropos {
+            height: 100%;
+        }
+
+        .container-pro-pic {
+            padding-top: 5em;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .p-apropos {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .p-apropos p {
+            font-size: 16px;
+            margin: 6em 6em 0 6em;
+        }
+
+        /******************************* SECTION DIV SUITE APROPOS *************************************/
+        
+        .box-profil-pic {
+            margin-right: 0;
+        }
+
+        .container-apropos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box-bande-apropos {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .p-bande-apropos {
+            padding: 2em 0 2em;
+        }
+
+        .box-ligne-gauche {
+            width: 60vw;
+        }
+
+        .box-ligne-droite {
+            width: 60vw;
+        }
+
+        .box-bande-apropos {
+            padding: 2em 11em 2em;
+        }
+
+        .img-manette {
+            width: 180px;
+            height: 180px;
+        }
+
+        .img-manette img {
+            width: 170px;
+            height: 130px;
+        }
+
+        .img-manette img:hover {
+            width: 170px;
+            height: 130px;
+        }
+
+        /************************************************* MON PARCOURS ***********************************************/
+
+        .titre-parcours {
+            width: 45%;
+        }
+
+        .wrapper {
+            grid-template-columns: 2fr 4fr 0fr;
+            grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        }
+
+        .col-1-1 {
+            grid-row: 1;
+            grid-column: 2/2;
+        }
+
+        .col-1-2, .col-1-4, .col-3-1,
+        .col-3-3, .col-3-5 {
+            display: none;
+        }
+
+        .col-1-3 {
+            grid-row: 3;
+            grid-column: 3/2;
+        }
+
+        .col-1-5 {
+            grid-row: 5;
+            grid-column: 5/2;
+        }
+
+        .col-2-1 {
+            grid-row: 1;
+            grid-column: 1/1;
+        }
+
+        .col-3-2 {
+            grid-row: 2;
+            grid-column: 2/3;
+        }
+
+        .col-3-4 {
+            grid-row: 4;
+            grid-column: 4/2;
+        }
+
+        /******************COLONNE DU MILIEU PRINCIPALE MEDIA***************/
+
+        .col-2-2 {
+            grid-row: 2;
+            grid-column: 1;
+        }
+
+        .col-2-3 {
+            grid-row: 3;
+            grid-column: 1;
+        }
+
+        .col-2-4 {
+            grid-row: 4;
+            grid-column: 1;
+        }
+
+        .col-2-5 {
+            grid-row: 5;
+            grid-column: 1;
+        }
+
+        /********************************************************************/
+
+        .ligne-horizontal-1 {
+            top: 55%;
+            left: 0;
+        }
+
+        .ligne-horizontal-2 {
+            top: 35%
+        }
+
+        .ligne-horizontal-3 {
+            top: 35%;
+            left: 0;
+        }
+
+        .ligne-horizontal-4 {
+            top: 35%;
+        }
+
+        .ligne-horizontal-5 {
+            top: 30%;
+            left: 0;
+        }
+
+        /* .ligne-vertical-1 {
+            bottom: -10px;
+        } */
+
+        /* .ligne-vertical-5 {
+            bottom: 50px;
+        } */
+
+        .cursus-1 {
+            top: 40%;
+            right: 0;
+        }
+
+        .cursus-2, .cursus-3 {
+            text-align: left;
+            top: 4%;
+            left: 12%;
+        }
+
+        .cursus-4 {
+            top: 14%;
+            left: 14%;
+            text-align: left;
+        }
+
+        .cursus-5 {
+            top: 12%;
+            left: 14%;
+            text-align: left;
+        }
+
+        /*********************** COMPETENCE *********************************/
+
+        .container-box {
+            flex-wrap: wrap;
+        }
+
+        /************************* PORTFOLIO *******************************/
+
+        .box-portfolio {
+            flex-wrap: wrap;
+        }
+
+        .container-swiper {
+            padding: 40px 30px;
+        }
+
+        .swiper-navBtn  {
+            display: none !important;
+        }
+
+        /************************** FORMULAIRE DE CONTACT *************************/
+
+        .box-nom-prenom {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        /******************************** FOOTER **********************************/
+
+        .box-social-link {
+            justify-content: center;
+            position: static;
+            width: 100%;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: none;
+            gap: 0;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 16px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 18px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 12px;
+            padding-right: 8em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 17px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 10px;
+        }
+
+        .credit-mention {
+            font-size: 8px;
+        }
+    }
+
+    @media  screen and (max-width: 991px) {
+
+        .titre-milieu > h1 {
+            font-size: 3.5em;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .box-mention {
+            margin: 2em;
+            padding: 2em;
+        }
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 14px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 14px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 12px;
+            padding-right: 8em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 14px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 10px;
+        }
+
+        .credit-mention {
+            font-size: 8px;
+        }
+
+    }
+
+    @media  screen and (max-width: 961px) {
+
+        .titre-milieu > h1 {
+            font-size: 3.4em;
+        }
+
+    }
+
+    @media  screen and (max-width: 931px) {
+
+        .titre-milieu > h1 {
+            font-size: 3.3em;
+        }
+
+    }
+
+    @media  screen and (max-width: 900px) {
+
+        .titre-milieu > h1 {
+            font-size: 3em;
+        }
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 3em;
+        }
+
+        blockquote {
+            font-size: 24px;
+        }
+
+        .section-quote {
+            height: 75vh;
+        }
+
+    }
+
+    @media  screen and (max-width: 838px) {
+
+        .titre-milieu > h1 {
+            font-size: 3em;
+        }
+
+        /****************** MON PARCOURS **************************/
+
+        .cercle-grid-1, .cercle-grid-2,
+        .cercle-grid-3, .cercle-grid-4,
+        .cercle-grid-5 {
+            width: 180px;
+            height: 180px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 130px;
+            height: 130px;
+        }
+
+        .inside-circle {
+            width: 130px;
+            height: 130px;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .container-bg-mention {
+            margin: 5em 2em;
+        }
+
+        .container-mention{
+            margin: 0;
+        }
+
+        .box-mention {
+            margin: 2em;
+            padding: 2em;
+        }
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 12px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 12px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 10px;
+            padding-right: 5em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 12px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 10px;
+        }
+
+        .credit-mention {
+            font-size: 8px;
+        }
+        
+    }
+
+    @media  screen and (max-width: 808px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.9em;
+        }
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2.8em;
+        }
+
+        blockquote {
+            font-size: 20px;
+        }
+
         figcaption {
-            font-size: 13px;
-            width: 450px;
-            margin-top: 50px;
-            padding-right: 50px;
+            font-size: 10px;
+        }
+
+        .section-quote {
+            height: 60vh;
+        }
+
+    }
+
+    @media screen and (max-height: 800px) {             /**** Attention !! C'est pour max-height(hauteur) et non width(largeur) ******/
+
+        .box-social-link-nav {
+            bottom: 0;
+        }
+
+        .navbar .menu-items {
+            padding-top: 90px;
+        }
+
+        .navbar .menu-items > li {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    @media  screen and (max-width: 795px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.8em;
         }
 
         /******************************* SECTION DIV SUITE APROPOS *************************************/
 
-        .bordure-gauche {
-            width: 60%;
+        .box-ligne-gauche {
+            width: 55vw;
+        }
+
+        .box-ligne-droite {
+            width: 55vw;
+        }
+
+        .box-bande-apropos {
+            padding: 2em 8em 2em;
+        }
+
+    }
+
+    @media  screen and (max-width: 745px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.7em;
+        }
+
+        .swiper .button {
+            width: 15vw;
+        }
+    }
+
+    @media  screen and (max-width: 715px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.6em;
+        }
+
+        .logo-RL-burger {
+            right: 30px;
+        }
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2.6em;
+            border-radius: 54px;
+            box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        blockquote {
+            font-size: 18px;
+        }
+
+        figcaption {
+            font-size: 9px;
+        }
+
+        .barre-horizontale1,
+        .barre-horizontale2 {
+            width: 150px;
+            padding: 4px;
+        }
+
+        /****************** MON PARCOURS **************************/
+
+        .cercle-grid-1, .cercle-grid-2,
+        .cercle-grid-3, .cercle-grid-4,
+        .cercle-grid-5 {
+            width: 160px;
+            height: 160px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 110px;
+            height: 110px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 100px;
+        }
+
+        .cercle-grid-3 .img-afpar {
+            width: 110px;
+            height: 110px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 90px;
+        }
+
+        .inside-circle {
+            width: 110px;
+            height: 110px;
+        }
+
+        .ligne-vertical-1, .ligne-vertical-2,
+        .ligne-vertical-3, .ligne-vertical-4,
+        .ligne-vertical-5 {
+            border-left:  solid 4px #6C0087;
+        }
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            border-top: #6C0087 solid 2px;
+            width: 140px;
+        }
+
+        .triangle-grid {
+            border-right: 20px solid transparent;
+            border-bottom: 33px solid #6C0087;
+            border-left: 20px solid transparent;
+        }
+
+        .ligne-horizontal-1 {
+            top: 55%;
+            left: 0;
+        }
+
+        .ligne-horizontal-2 {
+            top: 30%
+        }
+
+        .ligne-horizontal-3 {
+            top: 30%;
+            left: 0;
+        }
+
+        .ligne-horizontal-4 {
+            top: 30%;
+        }
+
+        .ligne-horizontal-5 {
+            top: 30%;
+            left: 0;
+        }
+
+        .cursus-1 {
+            top: 42%;
+            right: 0;
+            font-size: 10px;
+        }
+
+        .cursus-2, .cursus-3 {
+            text-align: left;
+            top: 0%;
+            left: 12%;
+            font-size: 10px;
+        }
+
+        .cursus-4 {
+            top: 10%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+        .cursus-5 {
+            top: 12%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+
+        /****************************** PORTFOLIO ************************/
+        .bloc-vide {
+            display: none;
+        }
+
+        .titre-portfolio {
+            padding: 1em 0;
+            width: 100%;
+            align-items: center;
+        }
+
+        .titre-portfolio h1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .ligne-h1 {
+            position: unset;
+            width: 40%;
+            margin-top: 0.5em;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 10px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 10px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 8px;
+            padding-right: 5em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 10px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 8px;
+        }
+
+        .credit-mention {
+            font-size: 7px;
+        }
+
+    }
+    
+    @media screen and (max-height: 700px) {          /* ATTENTION !! Valeur régler sur la hauteur de l'écrans */
+
+        .navbar .menu-items {
+            padding-top: 100px;
+            /* height: 101vh; */
+        }
+
+        .navbar .menu-items > li {
+            margin-bottom: 1.2rem;
+        }
+
+        .logo-RL-nav > img {
+            max-width: 90px;
+        }
+
+
+    }
+
+    @media  screen and (max-width: 683px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.5em;
+        }
+
+        /****************** A PROPOS **************************/
+
+        .p-apropos p {
+            font-size: 14px;
+            margin: 6em 4em 0 4em;
+        }
+
+        /******************************* SECTION DIV SUITE APROPOS *************************************/
+
+        .box-ligne-gauche {
+            width: 50vw;
+        }
+
+        .box-ligne-droite {
+            width: 50vw;
+        }
+
+        .box-bande-apropos {
+            padding: 2em 4em 2em;
+        }
+
+        .p-bande-apropos {
+            font-size: 14px;
+        }
+
+        .img-manette {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img-manette img {
+            width: 150px;
+            height: 110px;
+        }
+
+        .img-manette img:hover {
+            width: 150px;
+            height: 110px;
+        }
+
+        /****************** CONTACT **************************/
+
+        .titre-contact {
+            font-size: 12px;
+        }
+
+        .trait-horizontale {
+            width: 330px;
+        }
+
+        .triangle-contact-1, .triangle-contact-2 {
+            border-top: 60px solid #0E6DA3;
+            border-right: 30px solid transparent;
+            border-left: 30px solid transparent;
+        }
+
+        .triangle-contact-1-1, .triangle-contact-2-2 {
+            border-top: 40px solid #11f3e6;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+        }
+
+        .cercle-ct {
+            width: 180px;
+            height: 180px;
+        }
+
+        .logo-email img,
+        .logo-phone img,
+        .logo-form img {
+            width: 100px;
+            /* height: 100px; */
+        }
+
+        .phone p, 
+        .email a, 
+        .formulaire p {
+            font-size: 18px;
+        }
+
+        .logo-form {
+            padding-left: 15px;
+        }
+
+    }
+
+    @media  screen and (max-width: 653px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.4em;
+        }
+
+        /****************** MON PARCOURS **************************/
+
+        .wrapper {
+            grid-template-columns: 1.5fr 4fr 0fr;
+        }
+
+        .container-grid {
+            margin: 2.5em;
+        }
+
+        .cercle-grid-1, .cercle-grid-2,
+        .cercle-grid-3, .cercle-grid-4,
+        .cercle-grid-5 {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 60px;
+            margin-top: 20px;
+        }
+
+        .cercle-grid-1 {
+            margin-top: 60px;
+        }
+
+        .inside-circle {
+            width: 90px;
+            height: 90px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 90px;
+            height: 90px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 80px;
+        }
+
+        .cercle-grid-3 .img-afpar {
+            width: 90px;
+            height: 90px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 50px;
+            height: 60px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 80px;
+        }
+
+        .ligne-horizontal-1 {
+            top: 55%;
+            left: 0;
+        }
+
+        .ligne-horizontal-2 {
+            top: 40%
+        }
+
+        .ligne-horizontal-3 {
+            top: 40%;
+            left: 0;
+        }
+
+        .ligne-horizontal-4 {
+            top: 40%;
+        }
+
+        .ligne-horizontal-5 {
+            top: 35%;
+            left: 0;
+        }
+
+        .cursus-1 {
+            top: 35%;
+            right: 0;
+            font-size: 10px;
+        }
+
+        .cursus-2, .cursus-3 {
+            text-align: left;
+            top: 0%;
+            left: 12%;
+            font-size: 10px;
+        }
+
+        .cursus-4 {
+            top: 10%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+        .cursus-5 {
+            top: 12%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+    }
+
+    @media  screen and (max-width: 623px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.4em;
+        }
+
+        .titre-parcours {
+            width: 65%;
+        }
+
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2.5em;
+            border-radius: 54px;
+        }
+
+        blockquote {
+            font-size: 15px;
+        }
+
+        figcaption {
+            font-size: 8px;
+        }
+
+        .section-quote {
+            height: 55vh;
+        }
+
+    }
+
+    @media  screen and (max-width: 600px) {
+
+        main {
+            padding-top: 46px;
+        }
+
+        .titre-milieu > h1 {
+            font-size: 2.3em;
+        }
+
+        /******************* MENU BURGER NAV BAR *******************************/
+
+        .navbar .menu-items {
+            width: 100%;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .logo-RL-burger {
+            display: none;
+        }
+
+        .logo-RL-nav {
+            display: block;
+        }
+
+        .nav-container .hamburger-lines {
+            top: 20px;
+            height: 20px;
+            width: 24px;
 
         }
 
-        .bordure-droite {
-            width: 60%;
+        .nav-container .checkbox {
+            left: 15px;
+            top: 15px;
+        }
+
+        .nav-container {
+            height: 60px;
+        }
+
+        .box-social-link-nav {
+            bottom: 0;
+            border-right: 0;
+        }
+
+        /******************* A PROPOS ****************************************/
+
+        .box-apropos {
+            width: 200px;
+        }
+
+        .box-apropos > h2 {
+            font-size: 18px;
+            padding-top: 11px;
+        }
+
+        /****************************** COMPETENCE ************************************/
+
+        .container-competence h1 {
+            padding: 15px 40px;
+            border-radius: 20px;
+        }
+
+        /************************ FORMULAIRE DE CONTACT ****************************/
+        .box-formulaire {
+            max-width: 450px;
+        }
+
+        form button {
+            width: 250px;
+            max-width: 300px;
+            font-size: 16px;
+        }
+
+        form div > input,
+        form div > select,
+        form div > textarea {
+            font-size: 13px;
+        }
+
+        form div > textarea {
+            height: 115px;
+        }
+
+        form div > select option {
+            font-size: 9px;
+        }
+
+    }
+
+    @media  screen and (max-width: 560px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.2em;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .container-mention {
+            padding: 1.5em;
+        }
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 8px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 8px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 7px;
+            padding-right: 4em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 8px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 6px;
+        }
+
+        .credit-mention {
+            font-size: 5px;
+        }
+
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2.2em;
+            border-radius: 54px;
+        }
+
+        blockquote {
+            font-size: 13px;
+        }
+
+        figcaption {
+            font-size: 7px;
+        }
+
+        .section-quote {
+            height: 50vh;
+        }
+
+        /****************** MON PARCOURS **************************/
+
+        .cercle-grid-1, .cercle-grid-2,
+        .cercle-grid-3, .cercle-grid-4,
+        .cercle-grid-5 {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 40px;
+            margin-top: 25px;
+        }
+
+        .cercle-grid-1 {
+            margin-top: 45px;
+        }
+
+        .inside-circle {
+            width: 70px;
+            height: 70px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 70px;
+            height: 70px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 60px;
+        }
+
+        .cercle-grid-3 .img-afpar {
+            width: 70px;
+            height: 70px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 30px;
+            height: 45px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 60px;
+        }
+
+        .ligne-vertical-1, .ligne-vertical-2,
+        .ligne-vertical-3, .ligne-vertical-4,
+        .ligne-vertical-5 {
+            border-left:  solid 4px #6C0087;
+        }
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            border-top: #6C0087 solid 2px;
+            width: 90px;
+        }
+
+        .ligne-horizontal-1 {
+            top: 58%;
+            left: 0;
+        }
+
+        .ligne-horizontal-2 {
+            top: 44%
+        }
+
+        .ligne-horizontal-3 {
+            top: 44%;
+            left: 0;
+        }
+
+        .ligne-horizontal-4 {
+            top: 44%;
+        }
+
+        .ligne-horizontal-5 {
+            top: 38%;
+            left: 0;
+        }
+
+        .cursus-1 {
+            top: 35%;
+            right: 0;
+            font-size: 10px;
+        }
+
+        .cursus-2, .cursus-3 {
+            text-align: left;
+            top: 0%;
+            left: 12%;
+            font-size: 10px;
+        }
+
+        .cursus-4 {
+            top: 10%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+        .cursus-5 {
+            top: 12%;
+            left: 14%;
+            text-align: left;
+            font-size: 10px;
+        }
+
+        .triangle-grid {
+            border-right: 15px solid transparent;
+            border-bottom: 22px solid #6C0087;
+            border-left: 15px solid transparent;
+        }
+
+        /********************** FORMULAIRE DE CONTACT *********************/
+
+        form div {
+            margin-top: 15px;
+        }
+
+        form div > input,
+        form div > select,
+        form div > textarea {
+            font-size: 10px;
+            height: 40px;
+        }
+
+        form div > textarea {
+            height: 100px;
+        }
+
+        form div > select option {
+            font-size: 9px;
+        }
+
+    }
+
+    @media  screen and (max-width: 530px) {
+
+        .titre-milieu > h1 {
+            font-size: 2.1em;
+        }
+    }
+
+    @media  screen and (max-width: 500px) {
+
+        .titre-milieu > h1 {
+            font-size: 2em;
+        }
+
+        /****************** A PROPOS **************************/
+
+        .p-apropos p {
+            font-size: 12px;
+            margin: 10em 2.5em 0 2.5em;
+        }
+
+        /******************************* SECTION DIV SUITE APROPOS *************************************/
+
+        .box-ligne-gauche {
+            width: 45vw;
+        }
+
+        .box-ligne-droite {
+            width: 45vw;
+        }
+
+        .box-bande-apropos {
+            padding: 2em 3em 2em;
+        }
+
+        .p-bande-apropos {
+            font-size: 12px;
+        }
+
+        /****************************** COMPETENCE ************************************/
+
+        .container-competence h1 {
+            font-size: 1.8em;
+        }
+
+        /****************************** PORTFOLIO ************************************/
+
+        .container-portfolio {
+            margin: 1em;
+            padding: 0;
+        }
+
+        .swiper .button {
+            width: 25vw;
+        }
+
+        .container-swiper {
+            padding: 40px 10px;
+        }
+        
+
+        /****************** CONTACT **************************/
+
+        .titre-contact {
+            font-size: 10px;
+        }
+
+        .trait-horizontale {
+            width: 290px;
+        }
+
+        .triangle-contact-1, .triangle-contact-2 {
+            border-top: 40px solid #0E6DA3;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+        }
+
+        .triangle-contact-1-1, .triangle-contact-2-2 {
+            border-top: 19px solid #11f3e6;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+        }
+
+        .cercle-ct {
+            width: 150px;
+            height: 150px;
+            border: 9px solid #6C0087;
+        }
+
+        .logo-email img,
+        .logo-phone img,
+        .logo-form img {
+            width: 90px;
+            /* height: 100px; */
+        }
+
+        .logo-form {
+            padding-left: 15px;
+        }
+
+    }
+
+    @media  screen and (max-width: 468px) {
+
+        .titre-milieu > h1 {
+            font-size: 1.9em;
+        }
+
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2em;
+            border-radius: 44px;
+        }
+
+        blockquote {
+            font-size: 12px;
+        }
+
+        .blockquote-box {
+            width: 85vw;
+        }
+
+        figcaption {
+            font-size: 7px;
+        }
+
+        .barre-horizontale1,
+        .barre-horizontale2 {
+            width: 100px;
+        }
+
+        .section-quote {
+            height: 45vh;
+        }
+
+        /****************** MON PARCOURS **************************/
+
+        .wrapper {
+            grid-template-columns: 1.5fr 5fr 0fr;
+        }
+
+        .cercle-grid-1, .cercle-grid-2,
+        .cercle-grid-3, .cercle-grid-4,
+        .cercle-grid-5 {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 30px;
+            margin-top: 25px;
+        }
+
+        .cercle-grid-1 {
+            margin-top: 45px;
+        }
+
+        .inside-circle {
+            width: 45px;
+            height: 45px;
+        }
+
+        .cercle-grid-1 .img-ifr {
+            width: 45px;
+            height: 45px;
+        }
+
+        .cercle-grid-2 .img-gamecodeur {
+            width: 40px;
+            height: 15px;
+        }
+
+        .cercle-grid-3 .img-afpar {
+            width: 45px;
+            height: 45px;
+        }
+
+        .cercle-grid-4 .img-cfa {
+            width: 20px;
+            height: 35px;
+        }
+
+        .cercle-grid-5 .img-lycee-hotelier {
+            width: 40px;
+            height: 15px;
+        }
+
+        .ligne-horizontal-1 {
+            top: 60%;
+            left: 0;
+        }
+
+        .ligne-horizontal-2 {
+            top: 46%
+        }
+
+        .ligne-horizontal-3 {
+            top: 46%;
+            left: 0;
+        }
+
+        .ligne-horizontal-4 {
+            top: 46%;
+        }
+
+        .ligne-horizontal-5 {
+            top: 40%;
+            left: 0;
+        }
+
+        .cursus-1 {
+            top: 35%;
+            right: 0;
+            font-size: 8px;
+        }
+
+        .cursus-2, .cursus-3 {
+            text-align: left;
+            top: 0%;
+            left: 12%;
+            font-size: 8px;
+        }
+
+        .cursus-4 {
+            top: 10%;
+            left: 14%;
+            text-align: left;
+            font-size: 8px;
+        }
+
+        .cursus-5 {
+            top: 12%;
+            left: 14%;
+            text-align: left;
+            font-size: 8px;
+        }
+
+        .triangle-grid {
+            border-right: 12px solid transparent;
+            border-bottom: 20px solid #6C0087;
+            border-left: 12px solid transparent;
+        }
+
+        .ligne-vertical-1, .ligne-vertical-2,
+        .ligne-vertical-3, .ligne-vertical-4,
+        .ligne-vertical-5 {
+            border-left:  solid 3px #6C0087;
+        }
+
+        .ligne-horizontal-1, .ligne-horizontal-2,
+        .ligne-horizontal-3, .ligne-horizontal-4,
+        .ligne-horizontal-5 {
+            border-top: #6C0087 solid 2px;
+            /* width: 100%; */
+        }
+
+        /****************************** COMPETENCE ************************************/
+
+        .container-competence h1 {
+            font-size: 1.6em;
+        }
+
+    }
+
+    @media  screen and (max-width: 438px) {
+
+        .titre-milieu > h1 {
+            font-size: 1.8em;
+        }
+
+        .box-footer a, div {
+            font-size: 10px;
+        }
+
+        .box-footer {
+            top: 25px
+        }
+
+    }
+
+    @media  screen and (max-width: 425px) {
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+        }
+
+        .social-link img {
+            width: 40px;
+            height: 40px;
+        }
+
+        /***************** MENTION LEGAL ******************************/
+
+        .container-bg-mention {
+            padding: 1em;
+        }
+        .box-mention {
+            margin: 1em;
+            padding: 1em;
+        }
+
+        .box-mention > .h2-box, .p-box {
+            font-size: 8px;
+        }
+
+        .container-mention > .h2-container {
+            font-size: 8px;
+        }
+
+        .container-mention > .p-container {
+            font-size: 8px;
+            padding-right: 4em;
+        }
+
+        .container-mention .h3-container {
+            font-size: 8px;
+        }
+        
+        .container-mention .ol-container {
+            font-size: 5px;
+        }
+
+        .credit-mention {
+            font-size: 4px;
+        }
+
+    }
+
+    @media  screen and (max-width: 395px) {
+        
+        /****************** CONTACT **************************/
+
+        .titre-contact {
+            font-size: 8px;
+        }
+
+        .trait-horizontale {
+            width: 250px;
+        }
+
+        .triangle-contact-1, .triangle-contact-2 {
+            border-top: 40px solid #0E6DA3;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+        }
+
+        .triangle-contact-1-1, .triangle-contact-2-2 {
+            border-top: 19px solid #11f3e6;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+        }
+
+        .cercle-ct {
+            width: 120px;
+            height: 120px;
+            border: 7px solid #6C0087;
+        }
+
+        .logo-email img,
+        .logo-phone img,
+        .logo-form img {
+            width: 65px;
+            /* height: 100px; */
+        }
+
+        .phone p, 
+        .email a, 
+        .formulaire p {
+            font-size: 14px;
+        }
+
+        .logo-form {
+            padding-left: 12px;
+        }
+
+
+        /****************** FORMULAIRE DE CONTACT **************************/
+
+        .container-formulaire {
+            margin: 1em;
+        }
+
+        .box-formulaire {
+            /* max-width: 350px; */
+            padding: 35px 35px 35px 35px;
+        }
+
+        form div {
+            margin-top: 10px;
+        }
+
+        form button {
+            width: 200px;
+            max-width: 250px;
+            font-size: 11px;
+        }
+
+        form div > input,
+        form div > select,
+        form div > textarea {
+            font-size: 9px;
+            height: 40px;
+        }
+
+        form div > textarea {
+            height: 98px;
+        }
+
+        form div > select option {
+            font-size: 7px;
+        }
+
+    }
+
+    @media  screen and (max-width: 365px) {
+
+
+        /******************************* CITATION *************************************/
+
+        figure {
+            padding: 2em;
+            border-radius: 44px;
+        }
+
+        blockquote {
+            font-size: 10px;
+        }
+
+        figcaption {
+            font-size: 6px;
+        }
+
+        /****************************** COMPETENCE ************************************/
+
+        .container-competence h1 {
+            font-size: 1.4em;
+            width: 200px;
+        }
+
+        /****************** CONTACT **************************/
+
+        .titre-contact {
+            font-size: 7px;
+        }
+
+        .trait-horizontale {
+            width: 210px;
+        }
+
+        .triangle-contact-1, .triangle-contact-2 {
+            border-top: 32px solid #0E6DA3;
+            border-right: 16px solid transparent;
+            border-left: 16px solid transparent;
+        }
+
+        .triangle-contact-1-1, .triangle-contact-2-2 {
+            border-top: 16px solid #11f3e6;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+        }
+
+        .cercle-ct {
+            width: 120px;
+            height: 120px;
+            border: 7px solid #6C0087;
+        }
+
+        .logo-email img,
+        .logo-phone img,
+        .logo-form img {
+            width: 65px;
+            /* height: 100px; */
+        }
+
+        .phone p, 
+        .email a, 
+        .formulaire p {
+            font-size: 14px;
+        }
+
+        .logo-form {
+            padding-left: 12px;
+        }
+
+        /****************** FOOTER ***********************/
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+        }
+
+        .social-link img {
+            width: 30px;
+            height: 30px;
         }
 
     }

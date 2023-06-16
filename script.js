@@ -14,7 +14,7 @@ let progress = setInterval(() => {
         clearInterval(progress);
 
     }
-    console.log("Progress HTML s'affiche : " + progressStartValue);
+    // console.log("Progress HTML s'affiche : " + progressStartValue);
 
 }, speed);
 
@@ -35,7 +35,7 @@ let progress2 = setInterval(() => {
         clearInterval(progress2);
 
     }
-    console.log("Progress CSS3 s'affiche : " + progressStartValue2);
+    // console.log("Progress CSS3 s'affiche : " + progressStartValue2);
 
 }, speed2);
 
@@ -56,7 +56,6 @@ let progress3 = setInterval(() => {
         clearInterval(progress3);
 
     }
-    // console.log("Progress CSS3 s'affiche : " + progressStartValue3);
 
 }, speed3);
 
@@ -77,7 +76,6 @@ let progress4 = setInterval(() => {
         clearInterval(progress4);
 
     }
-    // console.log("Progress CSS3 s'affiche : " + progressStartValue3);
 
 }, speed4);
 
@@ -98,7 +96,6 @@ let progress5 = setInterval(() => {
         clearInterval(progress5);
 
     }
-    // console.log("Progress CSS3 s'affiche : " + progressStartValue3);
 
 }, speed5);
 
@@ -116,6 +113,19 @@ function playAndPause() {
     video.pause();
     btn.innerHTML = "Play ▶";
 
-    }
+    };
 
-}
+};
+
+// ///////////////////////////////////////////////////////////////// Chocolat lightbox
+// import Chocolat from 'chocolat-lighbox/chocolat.js'
+
+Chocolat(document.querySelectorAll('.chocolat-image'), {
+    loop: true,
+    imageSize: 'contain',
+    overlayOpacity: 0.5,
+});
+
+// function closeMenu(e) {
+//     document.getElementsByClassName('.navbar').style.display = 'none';
+// };
